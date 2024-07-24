@@ -1,0 +1,381 @@
+﻿  Cart.cpp
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(7,7): error C3646: 'id': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(7,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(11,12): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(11,2): error C2535: 'Cart_Item::Cart_Item(void)': member function already defined or declared
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(10,2): message : see declaration of 'Cart_Item::Cart_Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(21,19): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(23,7): error C3646: 'front': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(23,12): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(23,14): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(14,12): error C2511: 'Cart_Item::Cart_Item(Item)': overloaded member function not found in 'Cart_Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(5,7): message : see declaration of 'Cart_Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(15,2): error C2671: 'Cart_Item::{ctor}': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(16,2): error C2597: illegal reference to non-static member 'Cart_Item::nxt_item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(8,13): message : see declaration of 'Cart_Item::nxt_item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(37,12): error C2511: 'void Cart::add_to_cart(Item *)': overloaded member function not found in 'Cart'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(14,7): message : see declaration of 'Cart'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(39,15): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(39,6): error C2352: 'Cart::isFull': a call of a non-static member function requires an object
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(23,12): message : see declaration of 'Cart::isFull'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(49,32): error C2597: illegal reference to non-static member 'Cart::weight'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(49,32): error C3867: 'Cart::weight': non-standard syntax; use '&' to create a pointer to member
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(49,32): error C2568: '+': unable to resolve function overload
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(50,35): error C2665: 'Cart_Item::Cart_Item': no overloaded function could convert all the argument types
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(12,1): message : could be 'Cart_Item::Cart_Item(Cart_Item &&)'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(50,35): message : 'Cart_Item::Cart_Item(Cart_Item &&)': cannot convert argument 1 from 'Item *' to 'Cart_Item &&'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(50,36): message : Reason: cannot convert from 'Item *' to 'Cart_Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(50,36): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(12,1): message : or       'Cart_Item::Cart_Item(const Cart_Item &)'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(50,35): message : 'Cart_Item::Cart_Item(const Cart_Item &)': cannot convert argument 1 from 'Item *' to 'const Cart_Item &'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(50,36): message : Reason: cannot convert from 'Item *' to 'const Cart_Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(50,36): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(50,35): message : while trying to match the argument list '(Item *)'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(51,19): error C2597: illegal reference to non-static member 'Cart::top'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(51,19): error C3867: 'Cart::top': non-standard syntax; use '&' to create a pointer to member
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(51,19): error C2568: '==': unable to resolve function overload
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(52,5): error C2597: illegal reference to non-static member 'Cart::top'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(16,13): message : see declaration of 'Cart::top'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(55,25): error C2597: illegal reference to non-static member 'Cart::top'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(55,25): error C3867: 'Cart::top': non-standard syntax; use '&' to create a pointer to member
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(55,25): error C2568: '=': unable to resolve function overload
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(56,5): error C2597: illegal reference to non-static member 'Cart::top'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(16,13): message : see declaration of 'Cart::top'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(61,2): error C2352: 'Cart::show': a call of a non-static member function requires an object
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(24,7): message : see declaration of 'Cart::show'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(71,21): error C2039: 'id': is not a member of 'Cart_Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(5,7): message : see declaration of 'Cart_Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(77,12): error C2039: 'front': is not a member of 'Cart'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(14,7): message : see declaration of 'Cart'
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(78,9): error C2065: 'top': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Cart.cpp(84,9): error C2039: 'id': is not a member of 'Cart_Item'
+D:\Hamdan\Projects(Uni)\Project1\Cart.h(5,7): message : see declaration of 'Cart_Item'
+  Consumer.cpp
+D:\Hamdan\Projects(Uni)\Project1\Consumer.cpp(10,74): error C2572: 'Consumer::Consumer': redefinition of default argument: parameter 1
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(10,2): message : see declaration of 'Consumer::Consumer'
+D:\Hamdan\Projects(Uni)\Project1\Consumer.cpp(29,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Main.cpp
+D:\Hamdan\Projects(Uni)\Project1\Item.h(5,9): error C3646: 'name': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Item.h(5,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Item.h(6,9): error C3646: 'id': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Item.h(6,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Item.h(12,15): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Item.h(18,18): error C2061: syntax error: identifier 'ostream'
+D:\Hamdan\Projects(Uni)\Project1\Item.h(18,7): error C2805: binary 'operator <<' has too few parameters
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(3,9): error C3646: 'id': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(3,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(4,9): error C3646: 'password': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(4,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(5,9): error C3646: 'name': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(5,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(10,11): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(10,2): error C2535: 'Consumer::Consumer(void)': member function already defined or declared
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(9,2): message : see declaration of 'Consumer::Consumer'
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(12,15): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(16,13): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(17,19): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(18,9): error C3646: 'getID': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(18,14): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(18,16): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(19,9): error C3646: 'getName': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(19,16): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(19,18): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(20,9): error C3646: 'getPass': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(20,16): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Consumer.h(20,18): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(6,9): error C3646: 'name': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Section.h(6,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,9): error C2143: syntax error: missing ';' before '*'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,18): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(10,10): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(10,2): error C2535: 'Section::Section(void)': member function already defined or declared
+D:\Hamdan\Projects(Uni)\Project1\Section.h(9,2): message : see declaration of 'Section::Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(11,21): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(13,47): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(17,14): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(18,14): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(19,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(20,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(7,9): error C3646: 'name': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(7,13): error C2059: syntax error: ','
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(7,17): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(10,12): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(10,2): error C2535: 'StackItem::StackItem(void)': member function already defined or declared
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(9,2): message : see declaration of 'StackItem::StackItem'
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(17,12): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(18,9): error C3646: 'peek_name': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(18,18): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(18,20): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(19,9): error C3646: 'peek_id': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(19,16): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(19,18): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(20,9): error C3646: 'pop': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(20,12): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(20,14): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(25,19): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Store.h(17,14): error C2061: syntax error: identifier 'string'
+D:\Hamdan\Projects(Uni)\Project1\Store.h(31,34): error C2061: syntax error: identifier 'string'
+  Product.cpp
+D:\Hamdan\Projects(Uni)\Project1\Product.h(5,7): error C3646: 'item': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Product.h(5,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Product.h(9,10): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(16,24): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(19,29): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(20,20): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(21,7): error C3646: 'search': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Product.h(21,13): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Product.h(21,24): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(23,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(24,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\HelpingFunctions.cpp(138,3): error C3861: 'admin': identifier not found
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(9,10): error C2511: 'Product::Product(Item)': overloaded member function not found in 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(11,2): error C2671: 'Product::{ctor}': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(12,9): error C2597: illegal reference to non-static member 'Product::right'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(7,11): message : see declaration of 'Product::right'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(60,19): error C2511: 'Product *Product::add_to_stock(Item)': overloaded member function not found in 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(62): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(63,21): error C2665: 'Product::Product': no overloaded function could convert all the argument types
+D:\Hamdan\Projects(Uni)\Project1\Product.h(25,1): message : could be 'Product::Product(Product &&)'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(63,21): message : 'Product::Product(Product &&)': cannot convert argument 1 from 'Item' to 'Product &&'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(63,22): message : Reason: cannot convert from 'Item' to 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(63,22): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Hamdan\Projects(Uni)\Project1\Product.h(25,1): message : or       'Product::Product(const Product &)'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(63,21): message : 'Product::Product(const Product &)': cannot convert argument 1 from 'Item' to 'const Product &'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(63,22): message : Reason: cannot convert from 'Item' to 'const Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(63,22): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(63,21): message : while trying to match the argument list '(Item)'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(64): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(66,10): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(68): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(70,3): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(70,16): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(72): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(74,3): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(74,17): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(76,11): error C2352: 'Product::getBalanceFactor': a call of a non-static member function requires an object
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(32,14): message : see declaration of 'Product::getBalanceFactor'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(79): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(81,10): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(83): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(85,10): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(88): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(90,3): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(90,16): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(91,10): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(93): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(95,3): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(95,17): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(96,10): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(99,9): error C2671: 'Product::add_to_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(117,19): error C2511: 'Product *Product::Remove_from_stock(Item)': overloaded member function not found in 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(119): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(121): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(125): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(127,12): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(130): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(132,11): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(134): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(136,11): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(139,11): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(141,18): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(145): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(151,19): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(154,11): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(158): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(159,4): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(159,17): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(160): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(161,4): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(161,18): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(166,16): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(167,17): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(168,11): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(170,3): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(170,16): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(171,10): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(174,3): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(174,17): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(175,10): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(178,10): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(181,10): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(183,9): error C2671: 'Product::Remove_from_stock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(190,8): error C2039: 'item': is not a member of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(193,15): error C2511: 'void Product::fillItemList(Item *,int &)': overloaded member function not found in 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(195): error C2671: 'Product::fillItemList': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(197,3): error C2671: 'Product::fillItemList': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(198,20): error C2671: 'Product::fillItemList': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(199,3): error C2671: 'Product::fillItemList': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(203,15): error C2039: 'search': is not a member of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(205,6): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(206,7): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(207,8): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(212,26): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(214,4): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(219,17): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(225,5): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(225,27): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(231,12): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(232,11): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(236,11): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(243,13): error C2039: 'item': is not a member of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(244,10): error C2039: 'item': is not a member of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(247,18): error C2039: 'item': is not a member of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(256,15): error C2511: 'void Product::GetMatch1(Stack &,Stack &,char *)': overloaded member function not found in 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(3,7): message : see declaration of 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(258): error C2671: 'Product::GetMatch1': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(260): error C2671: 'Product::GetMatch1': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(262,10): error C2671: 'Product::GetMatch1': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(262,27): error C2671: 'Product::GetMatch1': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(262,4): error C2660: 'Stack::push': function does not take 1 arguments
+D:\Hamdan\Projects(Uni)\Project1\Stack.h(17,7): message : see declaration of 'Stack::push'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(262,4): message : while trying to match the argument list '()'
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(263,13): error C2671: 'Product::GetMatch1': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(263,30): error C2671: 'Product::GetMatch1': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Product.cpp(263,30): fatal  error C1003: error count exceeds 100; stopping compilation
+  HelpingFunctions.cpp
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,9): error C2143: syntax error: missing ';' before '*'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,18): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(19,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(20,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\HelpingFunctions.cpp(138,3): error C3861: 'admin': identifier not found
+  Queue.cpp
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(4,11): error C3646: 'value': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(4,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(7,7): error C2061: syntax error: identifier 'Consumer'
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(7,2): error C2535: 'Node::Node(void)': member function already defined or declared
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(6,2): message : see declaration of 'Node::Node'
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(15,15): error C2061: syntax error: identifier 'Consumer'
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(16,11): error C3646: 'Dequeue': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(16,18): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(16,20): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(11,7): error C2511: 'Node::Node(Consumer)': overloaded member function not found in 'Node'
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(2,7): message : see declaration of 'Node'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(13,2): error C2671: 'Node::{ctor}': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(14,2): error C2671: 'Node::{ctor}': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(37,15): error C2511: 'void LLQueue::Enqueue(Consumer)': overloaded member function not found in 'LLQueue'
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(9,7): message : see declaration of 'LLQueue'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(39,6): error C2352: 'LLQueue::isFull': a call of a non-static member function requires an object
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(28,15): message : see declaration of 'LLQueue::isFull'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(43,20): error C2597: illegal reference to non-static member 'LLQueue::front'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(43,20): error C3867: 'LLQueue::front': non-standard syntax; use '&' to create a pointer to member
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(43,20): error C2568: '==': unable to resolve function overload
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(44,27): error C2665: 'Node::Node': no overloaded function could convert all the argument types
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(8,1): message : could be 'Node::Node(Node &&)'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(44,27): message : 'Node::Node(Node &&)': cannot convert argument 1 from 'Consumer' to 'Node &&'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(44,28): message : Reason: cannot convert from 'Consumer' to 'Node'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(44,28): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(8,1): message : or       'Node::Node(const Node &)'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(44,27): message : 'Node::Node(const Node &)': cannot convert argument 1 from 'Consumer' to 'const Node &'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(44,28): message : Reason: cannot convert from 'Consumer' to 'const Node'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(44,28): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(44,27): message : while trying to match the argument list '(Consumer)'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(47,24): error C2665: 'Node::Node': no overloaded function could convert all the argument types
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(8,1): message : could be 'Node::Node(Node &&)'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(47,24): message : 'Node::Node(Node &&)': cannot convert argument 1 from 'Consumer' to 'Node &&'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(47,25): message : Reason: cannot convert from 'Consumer' to 'Node'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(47,25): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(8,1): message : or       'Node::Node(const Node &)'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(47,24): message : 'Node::Node(const Node &)': cannot convert argument 1 from 'Consumer' to 'const Node &'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(47,25): message : Reason: cannot convert from 'Consumer' to 'const Node'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(47,25): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(47,24): message : while trying to match the argument list '(Consumer)'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(49,4): error C2597: illegal reference to non-static member 'LLQueue::rear'
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(11,17): message : see declaration of 'LLQueue::rear'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(53,19): error C2039: 'Dequeue': is not a member of 'LLQueue'
+D:\Hamdan\Projects(Uni)\Project1\Queue.h(9,7): message : see declaration of 'LLQueue'
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(55,7): error C3861: 'isEmpty': identifier not found
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(57,17): error C2065: 'front': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(58,18): error C2065: 'front': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(59,3): error C2065: 'front': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Queue.cpp(59,11): error C2065: 'front': undeclared identifier
+  Section.cpp
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,9): error C2143: syntax error: missing ';' before '*'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,18): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(13,24): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(14,18): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(16,20): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(18,7): error C3646: 'search': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Section.h(18,13): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Section.h(18,24): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(19,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(20,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(5,7): error C3646: 'item': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Product.h(5,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Product.h(9,10): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(16,24): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(19,29): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(20,20): error C2061: syntax error: identifier 'Item'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(21,7): error C3646: 'search': unknown override specifier
+D:\Hamdan\Projects(Uni)\Project1\Product.h(21,13): error C2059: syntax error: '('
+D:\Hamdan\Projects(Uni)\Project1\Product.h(21,24): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(23,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Product.h(24,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(12,2): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(19,2): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(26,2): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(30,15): error C2511: 'void Section::SetProductsStock(Item *,int,std::string)': overloaded member function not found in 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(3,7): message : see declaration of 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(32,2): error C2671: 'Section::SetProductsStock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(33,2): error C2671: 'Section::SetProductsStock': static member functions do not have 'this' pointers
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(36,3): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(36,13): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(39,15): error C2511: 'void Section::setProduct(Item)': overloaded member function not found in 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(3,7): message : see declaration of 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(41,6): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(42,3): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(42,13): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,3): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,24): error C2665: 'Product::Product': no overloaded function could convert all the argument types
+D:\Hamdan\Projects(Uni)\Project1\Product.h(25,1): message : could be 'Product::Product(Product &&)'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,24): message : 'Product::Product(Product &&)': cannot convert argument 1 from 'Item' to 'Product &&'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,25): message : Reason: cannot convert from 'Item' to 'Product'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,25): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Hamdan\Projects(Uni)\Project1\Product.h(25,1): message : or       'Product::Product(const Product &)'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,24): message : 'Product::Product(const Product &)': cannot convert argument 1 from 'Item' to 'const Product &'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,25): message : Reason: cannot convert from 'Item' to 'const Product'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,25): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(44,24): message : while trying to match the argument list '(Item)'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(45,7): error C2597: illegal reference to non-static member 'Section::items'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(45,7): error C3867: 'Section::items': non-standard syntax; use '&' to create a pointer to member
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(45,7): error C2568: '++': unable to resolve function overload
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(49,2): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(51,15): error C2511: 'void Section::extractItems(Item *)': overloaded member function not found in 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(3,7): message : see declaration of 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(54,2): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(57,2): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(60,15): error C2039: 'search': is not a member of 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(3,7): message : see declaration of 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(61,9): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(63,15): error C2511: 'void Section::GetMatch1(Stack &,Stack &,char *)': overloaded member function not found in 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(3,7): message : see declaration of 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(65,2): error C2065: 'product': undeclared identifier
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(67,15): error C2511: 'void Section::GetMatch2(Stack &,Stack &,char *)': overloaded member function not found in 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(3,7): message : see declaration of 'Section'
+D:\Hamdan\Projects(Uni)\Project1\Section.cpp(69,2): error C2065: 'product': undeclared identifier
+  Store.cpp
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,9): error C2143: syntax error: missing ';' before '*'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Hamdan\Projects(Uni)\Project1\Section.h(7,18): error C2238: unexpected token(s) preceding ';'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(19,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\Section.h(20,17): error C2061: syntax error: identifier 'Stack'
+D:\Hamdan\Projects(Uni)\Project1\HelpingFunctions.cpp(138,3): error C3861: 'admin': identifier not found
+D:\Hamdan\Projects(Uni)\Project1\Store.cpp(147,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Hamdan\Projects(Uni)\Project1\Store.cpp(398,14): error C2660: 'Section::GetMatch1': function does not take 3 arguments
+D:\Hamdan\Projects(Uni)\Project1\Section.h(19,7): message : see declaration of 'Section::GetMatch1'
+D:\Hamdan\Projects(Uni)\Project1\Store.cpp(398,14): message : while trying to match the argument list '(Stack, Stack, char *)'
+D:\Hamdan\Projects(Uni)\Project1\Store.cpp(451,14): error C2660: 'Section::GetMatch2': function does not take 3 arguments
+D:\Hamdan\Projects(Uni)\Project1\Section.h(20,7): message : see declaration of 'Section::GetMatch2'
+D:\Hamdan\Projects(Uni)\Project1\Store.cpp(451,14): message : while trying to match the argument list '(Stack, Stack, char *)'
+  Generating Code...
